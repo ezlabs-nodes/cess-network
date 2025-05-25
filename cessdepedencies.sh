@@ -81,7 +81,7 @@ sudo apt install docker-ce -y
 wget https://github.com/CESSProject/cess-nodeadm/archive/v0.6.0.tar.gz
 tar -xvzf v0.6.0.tar.gz
 cd cess-nodeadm-0.6.0/
-./install.sh
+./install.sh --ignore-error
 # ==========================================
 echo "==================================="
 echo -e "${PURPLE}           EZ Labs Nodes       ${NC}"
